@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+.mainContainer{
+    background-color:#EAF1FB;
+    box-shadow: 0px 0px 10px grey;
+    width: 100%;
+    padding:5px;
+    position:sticky;
+}
+.mainContainer ul {
+list-style-type: none;
+}
+.mainContainer ul li{
+    display: inline;
+    padding:10px;
+    font-size: 20px;
+    font-weight: bold; 
+    margin-left: 20px;
+}
+.mainContainer ul li:hover{
+    color:goldenrod;
+    background-color: #F3F2EF;
+}
+.pictureContainer{
+    background-color: white;
+}
+.pictureContainer .sub{
+    box-shadow: 0px 0px 10px grey;
+    margin: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}
+.pictureContainer div img{
+    width:90%;
+    height: 90%;
+    padding:10px;   
+}
+
+
+
